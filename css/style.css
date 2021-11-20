@@ -74,6 +74,7 @@ body {
   align-items: center;
   background-color: var(--primary);
   padding: 1.6rem 3.2rem;
+  flex-wrap: wrap;
 }
 /******************************/
 /*NAVIGATION*/
@@ -82,6 +83,7 @@ body {
   list-style-type: none;
   display: flex;
   gap: 15rem;
+  flex-wrap: wrap;
 }
 .main-nav-link:link,
 .main-nav-link:visited {
@@ -107,9 +109,11 @@ body {
 }
 .hero-text-box {
   flex: 1;
+  border: 1px solid red;
 }
 .hero-img-box {
   flex: 1;
+  border: 1px solid yellow;
 }
 .heading-primary {
   font-size: 5.2rem;
@@ -171,6 +175,10 @@ body {
     border-radius: 9px;
     transition: background-color 1s;
   }
+  .main-nav-list {
+    gap: 5rem;
+    flex-wrap: wrap;
+  }
 }
 
 /*******MEDIUM TABLETS********/
@@ -178,6 +186,14 @@ body {
   .heading-primary {
     font-size: 2.4rem;
     padding-top: 2rem;
+  }
+  .header {
+    gap: 3rem;
+    flex-direction: column;
+  }
+  .main-nav-list {
+    gap: 2.4rem;
+    flex-wrap: wrap;
   }
 }
 /*******MOBILES********/
