@@ -75,6 +75,7 @@ body {
   background-color: var(--primary);
   padding: 1.6rem 3.2rem;
   flex-wrap: wrap;
+  font-family: "Montagu Slab", serif;
 }
 /******************************/
 /*NAVIGATION*/
@@ -183,18 +184,22 @@ body {
 }
 
 /*******MEDIUM TABLETS********/
-@media screen and (max-width: 554px) {
+@media screen and (max-width: 572px) {
   .heading-primary {
     font-size: 2.4rem;
     padding-top: 2rem;
   }
   .header {
-    gap: 3rem;
+    gap: 1.6rem;
     flex-direction: column;
   }
   .main-nav-list {
     gap: 2.4rem;
     flex-wrap: wrap;
+  }
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 2rem;
   }
   .line-break {
     display: initial;
@@ -202,6 +207,9 @@ body {
 }
 /*******MOBILES********/
 @media screen and (max-width: 393px) {
+  .logo {
+    height: 10rem;
+  }
   .heading-primary {
     font-size: 2rem;
     padding-top: 2rem;
