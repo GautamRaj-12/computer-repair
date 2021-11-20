@@ -109,11 +109,9 @@ body {
 }
 .hero-text-box {
   flex: 1;
-  border: 1px solid red;
 }
 .hero-img-box {
   flex: 1;
-  border: 1px solid yellow;
 }
 .heading-primary {
   font-size: 5.2rem;
