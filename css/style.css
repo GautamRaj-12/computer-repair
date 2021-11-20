@@ -1,7 +1,8 @@
 /*Variables*/
 :root {
   --primary: #1877f2;
-  --text: #fff;
+  --text-primary: #fff;
+  --text-secondary: #555;
 }
 /*global reset */
 * {
@@ -17,7 +18,7 @@ body {
   line-height: 1;
   font-weight: 400;
   font-family: josefin;
-  color: var(--text);
+  color: var(--text-primary);
 }
 
 /*fonts*/
@@ -42,7 +43,7 @@ body {
 .btn--full:link,
 .btn--full:visited {
   background-color: #1153a9;
-  color: var(--text);
+  color: var(--text-primary);
 }
 .btn--full:hover,
 .btn--full:active {
@@ -50,13 +51,13 @@ body {
 }
 .btn--outline:link,
 .btn--outline:visited {
-  background-color: var(--text);
+  background-color: var(--text-primary);
   color: #555;
 }
 .btn--outline:hover,
 .btn--outline:active {
   background-color: #d1e4fc;
-  box-shadow: inset 0 0 0 3px var(--text);
+  box-shadow: inset 0 0 0 3px var(--text-primary);
 }
 .margin-right-sm {
   margin-right: 1.6rem;
@@ -137,7 +138,47 @@ body {
 /******************************/
 /*SERVICES SECTION*/
 /******************************/
-
+.services {
+  padding-top: 4.8rem;
+  color: var(--text-secondary);
+}
+.secondary-heading {
+  text-align: center;
+  font-size: 4.8rem;
+  color: #000;
+}
+.service-box {
+  padding-top: 1.2rem;
+  max-width: 130rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.service {
+  width: 40rem;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 13px;
+  background: #e0e0e0;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.services img {
+  width: 27rem;
+  height: 15rem;
+}
+.service-heading {
+  font-size: 2.4rem;
+  margin: 1rem 0;
+}
+.service-description {
+  width: 80%;
+  font-size: 2rem;
+}
 /******************************/
 /*MEDIA QUERIES*/
 /******************************/
