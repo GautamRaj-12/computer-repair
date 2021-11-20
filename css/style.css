@@ -208,7 +208,7 @@ body {
 /*******MOBILES********/
 @media screen and (max-width: 393px) {
   .logo {
-    height: 10rem;
+    height: 8rem;
   }
   .heading-primary {
     font-size: 2rem;
