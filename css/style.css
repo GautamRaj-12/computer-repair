@@ -76,6 +76,7 @@ body {
   padding: 1.6rem 3.2rem;
   flex-wrap: wrap;
   font-family: "Montagu Slab", serif;
+  border-bottom: 10px solid #5da0f6;
 }
 /******************************/
 /*NAVIGATION*/
