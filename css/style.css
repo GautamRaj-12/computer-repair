@@ -157,6 +157,7 @@ body {
 }
 .service {
   width: 40rem;
+  height: 60rem;
   margin-bottom: 2rem;
   border-radius: 15px;
   background: #ffffff;
