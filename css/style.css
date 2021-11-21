@@ -157,19 +157,17 @@ body {
 }
 .service {
   width: 40rem;
-  padding: 2rem;
   margin-bottom: 2rem;
-  border-radius: 13px;
-  background: #e0e0e0;
-  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+  border-radius: 15px;
+  background: #ffffff;
+  box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 .services img {
-  width: 27rem;
-  height: 15rem;
+  width: 100%;
+  height: 40%;
 }
 .service-heading {
   font-size: 2.4rem;
