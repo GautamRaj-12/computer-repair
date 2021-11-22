@@ -94,7 +94,6 @@ body {
   font-size: 2.4rem;
   color: var(--text);
 }
-
 /******************************/
 /*HERO SECTION*/
 /******************************/
@@ -174,9 +173,15 @@ body {
   font-size: 2.4rem;
   margin: 1rem 0;
 }
-.service-description {
+.service-description,
+.service-list,
+.contact-link {
   width: 80%;
   font-size: 2rem;
+  line-height: 1.5;
+}
+.contact-link {
+  margin-top: 1rem;
 }
 /******************************/
 /*MEDIA QUERIES*/
