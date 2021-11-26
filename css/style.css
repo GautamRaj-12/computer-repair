@@ -201,6 +201,12 @@ body {
   padding-top: 4.8rem;
   color: var(--text-secondary);
 }
+.contact-section img {
+  width: 100px;
+  height: 100px;
+  padding-top: 0.5rem;
+  border-radius: 50%;
+}
 .tertiary-heading {
   text-align: center;
   font-size: 4.8rem;
@@ -210,11 +216,49 @@ body {
   padding-top: 1.2rem;
   max-width: 130rem;
   margin: 0 auto;
+  background-color: var(--primary);
+  border-radius: 5px;
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
-
+.contact-box div {
+  font-size: 2.4rem;
+}
+.location {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  /* align-items: center; */
+}
+.contact-profile {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  flex: 1;
+}
+.phone-1,
+.phone-2 {
+  justify-self: center;
+  text-align: center;
+  border-radius: 15px;
+  background: #ffffff;
+  /* box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff; */
+  width: 40rem;
+  line-height: 1.5;
+}
+.fa-whatsapp {
+  color: #34c049;
+  font-size: 2.4rem;
+}
+.fa-phone-alt {
+  color: #002d62;
+  font-size: 2.4rem;
+  margin-right: 2rem;
+}
 /******************************/
 /*MEDIA QUERIES*/
 /******************************/
@@ -258,6 +302,10 @@ body {
   .main-nav-list {
     gap: 5rem;
     flex-wrap: wrap;
+  }
+  .phone-1,
+  .phone-2 {
+    width: 100%;
   }
 }
 

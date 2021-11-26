@@ -1,171 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montagu+Slab&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-      crossorigin="anonymous"
-    />
-    <script src="js/lottie.js"></script>
-    <script src="js/script.js"></script>
-    <title>Computer Repair</title>
-  </head>
-  <body>
-    <header class="header">
-      <img src="img/repair-point.svg" alt="Repair point logo" class="logo" />
-      <nav class="main-nav">
-        <ul class="main-nav-list">
-          <li><a class="main-nav-link" href="#">Home</a></li>
-          <li><a class="main-nav-link" href="#">Services</a></li>
-          <li><a class="main-nav-link" href="#">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
 
-    <main>
-      <section class="section-hero">
-        <div class="hero">
-          <div class="hero-text-box">
-            <h1 class="heading-primary">Computer Repair and Support.</h1>
-            <p class="hero-description">
-              Fast, Affordable and <br class="line-break" />Exquisite service.
-            </p>
-            <a href="#" class="btn btn--full margin-right-sm margin-bottom-sm"
-              >Get PC Repaired</a
-            >
-            <a href="#" class="btn btn--outline">Contact &darr;</a>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montagu+Slab&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <script src="js/lottie.js"></script>
+  <script src="js/script.js"></script>
+  <title>Computer Repair</title>
+</head>
+
+<body>
+  <header class="header">
+    <img src="img/repair-point.svg" alt="Repair point logo" class="logo" />
+    <nav class="main-nav">
+      <ul class="main-nav-list">
+        <li><a class="main-nav-link" href="#">Home</a></li>
+        <li><a class="main-nav-link" href="#">Services</a></li>
+        <li><a class="main-nav-link" href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section-hero">
+      <div class="hero">
+        <div class="hero-text-box">
+          <h1 class="heading-primary">Computer Repair and Support.</h1>
+          <p class="hero-description">
+            Fast, Affordable and <br class="line-break" />Exquisite service.
+          </p>
+          <a href="#" class="btn btn--full margin-right-sm margin-bottom-sm">Get PC Repaired</a>
+          <a href="#" class="btn btn--outline">Contact &darr;</a>
+        </div>
+        <div class="hero-img-box">
+          <div id="laptopAnimation"></div>
+          <script src="js/laptop.js"></script>
+        </div>
+      </div>
+    </section>
+    <section class="services">
+      <h2 class="secondary-heading">Services</h2>
+      <div class="service-box">
+        <div class="service">
+          <img src="img/desktop.jpg" alt="Desktop picture" />
+          <p class="service-heading">Desktop Repair</p>
+          <p class="service-description">
+            We offer DESKTOP services like:
+          <ul class="service-list">
+            <li class="service-list-link">Motherboard repairing and
+              replacement</li>
+            <li class="service-list-link">Computer Assembly</li>
+            <li class="service-list-link">Other Desktop hardware repairing/replacement
+          </ul>
+          <p class="contact-link"> To know more
+            <a href="#">CONTACT</a>.
+          </p>
+          </p>
+        </div>
+        <div class="service">
+          <img src="img/laptop.jpg" alt="A Laptop picture" />
+          <p class="service-heading">Laptop Repair</p>
+          <p class="service-description">
+            We offer LAPTOP services like:
+          <ul class="service-list">
+            <li class="service-list-link">Motherboard repairing and
+              replacement</li>
+            <li class="service-list-link">Keyboard Replacement</li>
+            <li class="service-list-link">Other Laptop hardware repairing/replacement
+          </ul>
+          <p class="contact-link"> To know more
+            <a href="#">CONTACT</a>.
+          </p>
+          </p>
+        </div>
+        <div class="service">
+          <img src="img/monitor.jpg" alt="monitor picture" />
+          <p class="service-heading">Monitor Repair</p>
+          <p class="service-description">
+            We offer MONITOR services like:
+          <ul class="service-list">
+            <li class="service-list-link">Power Supply Repair</li>
+            <li class="service-list-link">Main PCB repair</li>
+            <li class="service-list-link">Adapter Repairing/Replacement</li>
+            <li class="service-list-link">Panel Repairing/Replacement</li>
+            For All kinds of Monitors: TN Panel, LCD, LED; be
+            it any brand HP, Samsung, LG etc.
+          </ul>
+          <p class="contact-link"> To know more
+            <a href="#">CONTACT</a>.
+          </p>
+          </p>
+        </div>
+        <div class="service">
+          <img src="img/windows.jpg" alt="windows installation picture" />
+          <p class="service-heading">Windows Installation</p>
+          <p class="service-description">
+            We provide FORMAT and INSTALLATION of:
+          <ul class="service-list">
+            <li class="service-list-link">Windows 11</li>
+            <li class="service-list-link">Windows 10</li>
+            <li class="service-list-link">Windows 8.1</li>
+            <li class="service-list-link">Windows 8</li>
+            <li class="service-list-link">Windows 7</li>
+            <li class="service-list-link">Windows Xp (No worries even if you have an old PC 😉)</li>
+          </ul>
+          <p class="contact-link"> To know more
+            <a href="#">CONTACT</a>.
+          </p>
+          </p>
+        </div>
+        <div class="service">
+          <img src="img/hardware.jpg" alt="hardware replacement picture" />
+          <p class="service-heading">Hardware Replacement</p>
+          <p class="service-description">
+            Wide Range of HARDWARE REPLACEMENTS like:
+          <ul class="service-list">
+            <li class="service-list-link">Motherboard Replacements</li>
+            <li class="service-list-link">Hard Disk Replacement</li>
+            <li class="service-list-link">Processor Replacement</li>
+            <li class="service-list-link">Keyboard Replacement</li>
+            <li class="service-list-link">Other Computer Accessories</li>
+          </ul>
+          <p class="contact-link"> To know more
+            <a href="#">CONTACT</a>.
+          </p>
+          </p>
+        </div>
+        <div class="service">
+          <img src="img/update.png" alt="software update picture" />
+          <p class="service-heading">Software Update</p>
+          <p class="service-description">
+            Wide range of SOFTWARE and SOFTWARE UPDATES available:
+          <ul class="service-list">
+            <li class="service-list-link">System Softwares</li>
+            <li class="service-list-link">Application Softwares</li>
+            <li class="service-list-link">Utiliy Softwares</li>
+            <li class="service-list-link">Security Softwares etc.</li>
+          </ul>
+          <p class="contact-link"> To know more
+            <a href="#">CONTACT</a>.
+          </p>
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="contact-section">
+      <h2 class="tertiary-heading">Contact</h2>
+      <div class="contact-box">
+        <div class="location">
+          <div>Address: </div>Sarada Moni Park, Pirpukur Road <div>Palpara 2nd auto stand</div>Bansdroni, Kolkata<div>
+            West Bengal 700070</div>
+        </div>
+        <div class="contact-profile">
+          <div class="phone-1">
+            <img src="img/sankar.jpg" alt="">
+            <p class="phone-name">Sankar Mondal</p>
+            <p>+91906209535</p>
+            <a href="tel:9062090535" class="phone-sankar"><i class="fas fa-phone-alt"></i></a>
+            <a href="whatsapp://send?text=Hello World!&phone=+919062090535"><i class="fab fa-whatsapp"></i> </a>
           </div>
-          <div class="hero-img-box">
-            <div id="laptopAnimation"></div>
-            <script src="js/laptop.js"></script>
+          <div class="phone-2">
+            <img src="img/imran.jpg" alt="">
+            <p class="phone-name">Imran Khan</p>
+            <p>+919674260281</p>
+            <a href="tel:9674260281" class="phone-sankar"><i class="fas fa-phone-alt"></i></a>
+            <a href="whatsapp://send?text=Hello World!&phone=+919674260281"><i class="fab fa-whatsapp"></i> </a>
           </div>
         </div>
-      </section>
-      <section class="services">
-        <h2 class="secondary-heading">Services</h2>
-        <div class="service-box">
-          <div class="service">
-            <img src="img/desktop.jpg" alt="Desktop picture" />
-            <p class="service-heading">Desktop Repair</p>
-            <p class="service-description">
-              We offer DESKTOP services like:
-              <ul class="service-list">
-                <li class="service-list-link">Motherboard repairing and
-                  replacement</li>
-                <li class="service-list-link">Computer Assembly</li>
-                <li class="service-list-link">Other Desktop hardware repairing/replacement
-              </ul>
-              <p class="contact-link"> To know more
-              <a href="#">CONTACT</a>.</p>
-            </p>
-          </div>
-          <div class="service">
-            <img src="img/laptop.jpg" alt="A Laptop picture" />
-            <p class="service-heading">Laptop Repair</p>
-            <p class="service-description">
-              We offer LAPTOP services like:
-              <ul class="service-list">
-                <li class="service-list-link">Motherboard repairing and
-                  replacement</li>
-                <li class="service-list-link">Keyboard Replacement</li>
-                <li class="service-list-link">Other Laptop hardware repairing/replacement
-              </ul>
-              <p class="contact-link"> To know more
-              <a href="#">CONTACT</a>.</p>
-            </p>
-          </div>
-          <div class="service">
-            <img src="img/monitor.jpg" alt="monitor picture" />
-            <p class="service-heading">Monitor Repair</p>
-            <p class="service-description">
-              We offer MONITOR services like:
-              <ul class="service-list">
-                <li class="service-list-link">Power Supply Repair</li>
-                <li class="service-list-link">Main PCB repair</li>
-                <li class="service-list-link">Adapter Repairing/Replacement</li>
-                <li class="service-list-link">Panel Repairing/Replacement</li>
-                For All kinds of Monitors: TN Panel, LCD, LED; be
-              it any brand HP, Samsung, LG etc. 
-              </ul>
-              <p class="contact-link"> To know more
-              <a href="#">CONTACT</a>.</p>
-            </p>
-          </div>
-          <div class="service">
-            <img src="img/windows.jpg" alt="windows installation picture" />
-            <p class="service-heading">Windows Installation</p>
-            <p class="service-description">
-              We provide FORMAT and  INSTALLATION of:
-              <ul class="service-list">
-                <li class="service-list-link">Windows 11</li>
-                <li class="service-list-link">Windows 10</li>
-                <li class="service-list-link">Windows 8.1</li>
-                <li class="service-list-link">Windows 8</li>
-                <li class="service-list-link">Windows 7</li>
-                <li class="service-list-link">Windows Xp (No worries even if you have an old PC 😉)</li>
-              </ul>
-              <p class="contact-link"> To know more
-              <a href="#">CONTACT</a>.</p>
-            </p>
-          </div>
-          <div class="service">
-            <img src="img/hardware.jpg" alt="hardware replacement picture" />
-            <p class="service-heading">Hardware Replacement</p>
-            <p class="service-description">
-              Wide Range of HARDWARE REPLACEMENTS like:
-              <ul class="service-list">
-                <li class="service-list-link">Motherboard Replacements</li>
-                <li class="service-list-link">Hard Disk Replacement</li>
-                <li class="service-list-link">Processor Replacement</li>
-                <li class="service-list-link">Keyboard Replacement</li>
-                <li class="service-list-link">Other Computer Accessories</li>
-              </ul>
-              <p class="contact-link"> To know more
-              <a href="#">CONTACT</a>.</p>
-            </p>
-          </div>
-          <div class="service">
-            <img src="img/update.png" alt="software update picture" />
-            <p class="service-heading">Software Update</p>
-            <p class="service-description">
-              Wide range of SOFTWARE and SOFTWARE UPDATES available:
-              <ul class="service-list">
-                <li class="service-list-link">System Softwares</li>
-                <li class="service-list-link">Application Softwares</li>
-                <li class="service-list-link">Utiliy Softwares</li>
-                <li class="service-list-link">Security Softwares etc.</li>
-              </ul>
-              <p class="contact-link"> To know more
-              <a href="#">CONTACT</a>.</p>
-            </p>
-          </div>
-        </div>
-      </section>
-      <section class="contact-section">
-        <h2 class="tertiary-heading">Contact</h2>
-        <div class="contact-box">
-          <div class="location">
-            Address: Sarada Moni Park, Pirpukur Road <br>Palpara 2nd auto stand, Bansdroni, Kolkata, West Bengal 700070
-          </div>
-          <div class="phone">
-            <h3 class="phone-name">Sankar Mondal</h3>
-            <a href="tel:9062090535" class="phone-sankar">Call Now</a>
-            <a href="whatsapp://send?text=Hello World!&phone=+919062090535">Ping me on WhatsApp</a>
-          </div>
-        </div>
-      </section>
-    </main>
-    <script src="js/index.js"></script>
-  </body>
+      </div>
+    </section>
+  </main>
+  <script src="js/index.js"></script>
+</body>
+
 </html>
