@@ -158,12 +158,17 @@ body {
   width: 40rem;
   height: 60rem;
   margin-bottom: 2rem;
-  border-radius: 15px;
   background: #ffffff;
-  box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+  /* box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff; */
   display: flex;
   flex-direction: column;
   align-items: center;
+  border: solid 4px transparent;
+  border-radius: 8px;
+  background-image: linear-gradient(white, white),
+    linear-gradient(315deg, #833ab4, #fd1d1d 50%, #fcb045);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
 }
 .services img {
   width: 100%;
@@ -232,6 +237,7 @@ body {
   flex-direction: column;
   justify-content: center;
   color: #fff;
+  margin-bottom: 2rem;
   /* align-items: center; */
 }
 .contact-profile {
@@ -239,6 +245,7 @@ body {
   flex-wrap: wrap;
   gap: 3rem;
   flex: 1;
+  padding: 2rem;
 }
 .phone-1,
 .phone-2 {
@@ -246,7 +253,7 @@ body {
   text-align: center;
   border-radius: 15px;
   background: #ffffff;
-  /* box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff; */
+  border-radius: 8px;
   width: 40rem;
   line-height: 1.5;
 }
@@ -258,6 +265,15 @@ body {
   color: #002d62;
   font-size: 2.4rem;
   margin-right: 2rem;
+}
+/******************************/
+/*MEDIA QUERIES*/
+/******************************/
+footer {
+  margin-top: 2rem;
+  height: 5rem;
+  text-align: center;
+  background-color: var(--primary);
 }
 /******************************/
 /*MEDIA QUERIES*/
